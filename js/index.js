@@ -79,10 +79,10 @@ Sello y la de la maquina fue Sello`);
         total = total - apuesta
         if (total < 0) {
             alert(`lo sentimos nos debes ${Math.abs(total)} tu eleccion fue 
-Sello y la de la maquina sello`);
+Sello y la de la maquina Cara`);
         }else if (ganancia >= 0 ) {
             alert(`lo sentimos perdiste tu valor es de  ${total} tu eleccion fue 
-Sello y la de la maquina sello`);
+Sello y la de la maquina Cara`);
         }
     }
     console.log(partidas);
